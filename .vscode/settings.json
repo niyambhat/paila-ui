@@ -1,0 +1,17 @@
+{
+  "cSpell.words": [
+    "filterproduct"
+  ],
+  "workbench.colorCustomizations": {},
+  "json.schemas": [],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "workbench.colorTheme": "Andromeda", // Assuming the Andromeda theme is already installed
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  }
+}

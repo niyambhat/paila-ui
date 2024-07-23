@@ -1,0 +1,32 @@
+{
+    "name": "My Project",
+    "dockerFile": "Dockerfile",
+    "settings": {
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+      },
+      "cSpell.words": ["filterproduct"],
+      "workbench.activityBar.visible": true,
+      "workbench.colorCustomizations": {},
+      "json.schemas": [],
+      "workbench.colorTheme": "Andromeda", // Assuming the Andromeda theme is already installed
+      "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+      },
+      "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+      }
+    },
+    "extensions": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "streetsidesoftware.code-spell-checker",
+      "christian-kohler.path-intellisense",
+      "andrewrazumovsky.vscode-theme-andromeda",
+      "formulahendry.auto-close-tag",
+      "formulahendry.auto-rename-tag",
+      "dsznajder.es7-react-js-snippets"
+    ],
+    "postCreateCommand": "npm install"
+  }
+  
