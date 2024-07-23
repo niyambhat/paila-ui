@@ -11,7 +11,6 @@ import { useParams } from "react-router-dom";
 import styled from "styled-components";
 import { Container } from "styles/Container";
 
-
 const API = "https://api.pujakaitem.com/api/products";
 
 const SingleProduct = () => {
@@ -155,7 +154,7 @@ const Wrapper = styled.section`
       font-weight: bold;
     }
     .product-data-real-price {
-      color: ${({ theme }) => theme.colors.btn};
+      color: black;
     }
     .product-data-info {
       display: flex;
@@ -189,7 +188,7 @@ const Wrapper = styled.section`
     justify-content: center;
     align-items: center;
   }
-  @media (max-width: ${({ theme }) => theme.media.mobile}) {
+  @media (max-width: ${({ theme }) => 7}) {
     padding: 0 2.4rem;
   }
 `;
