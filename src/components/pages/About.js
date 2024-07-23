@@ -1,6 +1,6 @@
 import HeroSection from "components/layout/sections/HeroSection";
 import React from "react";
-import { useProductContext } from "./context/productcontex";
+import { useProductContext } from "../../context/productcontex";
 
 const About = () => {
   const { myName } = useProductContext();

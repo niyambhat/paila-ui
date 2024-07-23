@@ -1,6 +1,7 @@
+import StyledButton from "components/lib/StyledButton";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { Button } from "./styles/Button";
 
 const ErrorPage = () => {
   return (
@@ -16,7 +17,7 @@ const ErrorPage = () => {
           </p>
 
           <NavLink to="/">
-            <Button>Go Back to Home</Button>
+          <StyledButton label="Go Back to Home"/>
           </NavLink>
         </div>
       </div>

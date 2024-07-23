@@ -2,9 +2,9 @@ import CartItem from "components/shop/CartItem";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import { useCartContext } from "./context/cart_context";
-import FormatPrice from "./Helpers/FormatPrice";
-import { Button } from "./styles/Button";
+import { useCartContext } from "../../context/cart_context";
+import FormatPrice from "../../Helpers/FormatPrice";
+import { Button } from "../../styles/Button";
 
 const Cart = () => {
   const { cart, clearCart, total_price, shipping_fee } = useCartContext();
