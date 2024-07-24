@@ -72,7 +72,6 @@ const Wrapper = styled.section`
       font-size: 1.6rem;
     }
     .active {
-      background-color: ${({ theme }) => theme.colors.black};
       color: #fff;
     }
   }

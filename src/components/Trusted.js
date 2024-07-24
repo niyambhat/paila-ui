@@ -44,8 +44,7 @@ const Trusted = () => {
 };
 
 const Wrapper = styled.section`
-  padding: 9rem 0;
-  background-color: ${({ theme }) => theme.colors.bg};
+  padding: 9rem 0;};
 
   .brand-section {
     padding: 12rem 0 0 0;
@@ -53,7 +52,6 @@ const Wrapper = styled.section`
   h3 {
     text-align: center;
     text-transform: capitalize;
-    color: ${({ theme }) => theme.colors.text};
     font-size: 2rem;
     font-weight: bold;
   }
@@ -71,7 +69,7 @@ const Wrapper = styled.section`
     flex-direction: row;
   }
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}) {
+  @media (max-width: 728px) {
     .brand-section-slider {
       margin-top: 3.2rem;
       display: grid;

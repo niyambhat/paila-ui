@@ -188,7 +188,7 @@ const Wrapper = styled.section`
     justify-content: center;
     align-items: center;
   }
-  @media (max-width: ${({ theme }) => 7}) {
+  @media (max-width:728px) {
     padding: 0 2.4rem;
   }
 `;

@@ -1,6 +1,6 @@
+import { FaCheck } from "react-icons/fa";
 import styled from "styled-components";
 import { useFilterContext } from "../../context/filter_context";
-import { FaCheck } from "react-icons/fa";
 import FormatPrice from "../../Helpers/FormatPrice";
 import { Button } from "../../styles/Button";
 
@@ -171,28 +171,16 @@ const Wrapper = styled.section`
       align-items: flex-start;
       gap: 1.4rem;
 
-      button {
-        border: none;
-        background-color: ${({ theme }) => theme.colors.white};
-        text-transform: capitalize;
-        cursor: pointer;
 
-        &:hover {
-          color: ${({ theme }) => theme.colors.btn};
-        }
       }
 
-      .active {
-        border-bottom: 1px solid #000;
-        color: ${({ theme }) => theme.colors.btn};
-      }
+ 
     }
   }
 
   .filter-company--select {
     padding: 0.3rem 1.2rem;
     font-size: 1.6rem;
-    color: ${({ theme }) => theme.colors.text};
     text-transform: capitalize;
   }
 

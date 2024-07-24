@@ -23,14 +23,9 @@ const Nav = () => {
           font-size: 1.8rem;
           font-weight: 500;
           text-transform: uppercase;
-          color: ${({ theme }) => theme.colors.black};
           transition: color 0.3s linear;
         }
-
-        &:hover,
-        &:active {
-          color: ${({ theme }) => theme.colors.helper};
-        }
+    
       }
     }
 
@@ -68,7 +63,6 @@ const Nav = () => {
         place-items: center;
         top: -20%;
         left: 70%;
-        background-color: ${({ theme }) => theme.colors.helper};
       }
     }
 
@@ -82,15 +76,14 @@ const Nav = () => {
       padding: 0.8rem 1.4rem;
     }
 
-    @media (max-width: ${({ theme }) => theme.media.mobile}) {
+    @media (max-width: 728px) {
       .mobile-navbar-btn {
         display: inline-block;
         z-index: 9999;
-        border: ${({ theme }) => theme.colors.black};
+        };
 
         .mobile-nav-icon {
           font-size: 4.2rem;
-          color: ${({ theme }) => theme.colors.black};
         }
       }
 
@@ -100,7 +93,6 @@ const Nav = () => {
         position: absolute;
         top: 30%;
         right: 10%;
-        color: ${({ theme }) => theme.colors.black};
         z-index: 9999;
       }
 

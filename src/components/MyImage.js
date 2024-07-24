@@ -49,7 +49,6 @@ const Wrapper = styled.section`
       background-size: cover;
       object-fit: contain;
       cursor: pointer;
-      box-shadow: ${({ theme }) => theme.colors.shadow};
     }
   }
 
@@ -60,7 +59,6 @@ const Wrapper = styled.section`
     img {
       max-width: 100%;
       height: auto;
-      box-shadow: ${({ theme }) => theme.colors.shadow};
     }
   }
   .grid-four-column {
@@ -68,7 +66,7 @@ const Wrapper = styled.section`
     grid-template-rows: repeat(4, 1fr);
   }
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}) {
+  @media (max-width:728px) {
     display: flex;
     flex-direction: column;
     order: 1;

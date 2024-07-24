@@ -77,9 +77,7 @@ const Wrapper = styled.section`
     }
   }
 
-  .active {
-    opacity: 1;
-  }
+
 
   .checkStyle {
     font-size: 1rem;
@@ -95,15 +93,9 @@ const Wrapper = styled.section`
     align-items: center;
     font-size: 1.4rem;
 
-    button {
-      border: none;
-      background-color: #fff;
-      cursor: pointer;
-    }
 
     .amount-style {
       font-size: 2.4rem;
-      color: ${({ theme }) => theme.colors.btn};
     }
   }
 `;

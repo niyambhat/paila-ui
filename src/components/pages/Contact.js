@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 
 const Contact = () => {
@@ -22,9 +23,9 @@ const Contact = () => {
             transition: all 0.2s;
 
             &:hover {
-              background-color: ${({ theme }) => theme.colors.white};
-              border: 1px solid ${({ theme }) => theme.colors.btn};
-              color: ${({ theme }) => theme.colors.btn};
+              background-color: white;
+              border: 1px solid black;
+              color: black;
               transform: scale(0.9);
             }
           }

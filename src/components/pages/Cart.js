@@ -185,7 +185,6 @@ const Wrapper = styled.section`
 
     .amount-style {
       font-size: 2.4rem;
-      color: ${({ theme }) => theme.colors.btn};
     }
   }
 
@@ -223,11 +222,11 @@ const Wrapper = styled.section`
 
     div p:last-child {
       font-weight: bold;
-      color: ${({ theme }) => theme.colors.heading};
+      color: black;
     }
   }
 
-  @media (max-width: ${({ theme }) => theme.media.mobile}) {
+  @media (max-width: 728px) {
     .grid-five-column {
       grid-template-columns: 1.5fr 1fr 0.5fr;
     }
